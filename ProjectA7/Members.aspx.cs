@@ -20,5 +20,10 @@ namespace ProjectA7
 
             friendLabel.Text = service1Client.getFriends();
         }
+
+        protected void encryptionClick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
