@@ -1,0 +1,4 @@
+﻿username,password,salt
+jackson,11842685a50cf3e69c9dfd25f48341b0,12345678
+martha,81eadac1975edba682ef0b548af28884,746jk246
+billy,6ca10237608985d5b3e6df14c782ed57,jr83nb2i
