@@ -23,7 +23,12 @@ namespace ProjectA7
 
         protected void encryptionClick(object sender, EventArgs e)
         {
+            ServiceReference1.Service1Client client = new ServiceReference1.Service1Client();
 
+            string encryption = client.GetHash(encryptionText.Text, "");
+
+            currentLabel.Text = "Original Text: " + encryptionText.Text;
+            encryptionLabel.Text = "Encrypted Text: " + encryption;
         }
     }
 }

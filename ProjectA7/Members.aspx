@@ -17,7 +17,8 @@
             <h3>Encryption</h3>
             <asp:Label runat="server">Enter item to be encrypted: </asp:Label><hr />
             <asp:TextBox runat="server" ID ="encryptionText"></asp:TextBox>
-            <asp:Button runat="server" Text="Encrypt Payload" OnClick="encryptionClick"></asp:Button>
+            <asp:Button runat="server" Text="Encrypt Payload" OnClick="encryptionClick"></asp:Button><br />
+            <asp:Label runat="server" ID="currentLabel"></asp:Label><br />
             <asp:Label runat="server" ID="encryptionLabel"></asp:Label>
         </section>
     </div>
